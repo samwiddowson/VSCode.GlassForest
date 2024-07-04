@@ -1,0 +1,32 @@
+{
+  "name": "glassforest",
+  "displayName": "GlassForest",
+  "description": "High-Contrast theme with colours from Forest Cottage theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Glass Forest",
+        "uiTheme": "hc-black",
+        "path": "./themes/Glass Forest-color-theme.json"
+      },
+      {
+        "label": "Glass Forest Glade",
+        "uiTheme": "hc-black",
+        "path": "./themes/Glass Forest Glade-color-theme.json"
+      },
+      {
+        "label": "Glass Forest Autumn",
+        "uiTheme": "hc-black",
+        "path": "./themes/Glass Forest Autumn-color-theme.json"
+      }
+
+    ]
+  }
+}
